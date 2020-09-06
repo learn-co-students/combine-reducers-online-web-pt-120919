@@ -25,6 +25,7 @@ export class AuthorInput extends Component {
     });
   }
 
+  
   render() {
     return(
       <form onSubmit={(event) => this.handleOnSubmit(event)}>
