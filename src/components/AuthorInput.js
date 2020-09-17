@@ -25,6 +25,7 @@ export class AuthorInput extends Component {
     });
   }
 
+  
   render() {
     return(
       <form onSubmit={(event) => this.handleOnSubmit(event)}>
@@ -42,4 +43,4 @@ export class AuthorInput extends Component {
   }
 };
 
-export default connect(null, { addAuthor })(AuthorInput);
+export default connect(null, {addAuthor})(AuthorInput);
