@@ -8,6 +8,7 @@ export class AuthorInput extends Component {
   state = {
     authorName: '',
   }
+  
 
   handleOnChange = event => {
     this.setState({
