@@ -25,7 +25,7 @@ export default function bookApp(
         ...state,
         authors: [...state.authors, action.author]
       };
-
+      
     case "REMOVE_AUTHOR":
       idx = state.authors.findIndex(author => author.id === action.id);
       return {
