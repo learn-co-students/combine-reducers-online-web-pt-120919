@@ -3,12 +3,12 @@ import uuid from "uuid"
 
 const rootReducer = combineReducers({
   authors: authorsReducer,
-  book: bookReducer
+  books: booksReducer
 })
 
 export default rootReducer
 
-function bookReducer(state = [], action){
+function booksReducer(state = [], action){
   let idx;
   switch(action.type){
     case "ADD_BOOK":
